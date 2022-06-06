@@ -16,5 +16,4 @@ WS.verifyResponseStatusCode(createPatientResponse, 200)
 String ID = WS.getElementPropertyValue(createPatientResponse, 'support.url')
 
 
-//test github
 
