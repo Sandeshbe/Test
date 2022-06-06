@@ -13,7 +13,7 @@ ResponseObject createPatientResponse = WS.sendRequest(findTestObject('Get_Reques
 WS.verifyResponseStatusCode(createPatientResponse, 200)
 
 
-String ID = WS.getElementPropertyValue(createPatientResponse, 'support.url')
+String ID = WS.getElementPropertyValue(createPatientResponse, 'support.url'))
 
 
 
